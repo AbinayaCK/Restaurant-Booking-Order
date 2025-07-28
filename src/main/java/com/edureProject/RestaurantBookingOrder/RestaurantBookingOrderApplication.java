@@ -7,6 +7,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 public class RestaurantBookingOrderApplication {
 
 	public static void main(String[] args) {
+		System.getProperties().put("server.port",8010);
 		SpringApplication.run(RestaurantBookingOrderApplication.class, args);
 	}
 
